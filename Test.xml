@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" parallel="methods" name="Codashop Test Automation">
+
+    <listeners>
+        <listener class-name="utils.ExtentReportListener"/>
+    </listeners>
+
+
+    <test  name="RegressionTestChrome">
+        <classes>
+            <class name="test.HomeScreenTest"/>
+        </classes>
+    </test>
+
+</suite>
